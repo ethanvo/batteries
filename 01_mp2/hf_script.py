@@ -12,7 +12,13 @@ mol.unit = "ANG"
 mol.build()
 
 mf = scf.RHF(mol)
-conv, e_tot, mo_energy, mo_coeff, mo_occ = mf.kernel()
+# determine the output of mf.kernel()
+mf.kernel()
+
+conv = mf.converged
+e_tot = mf.e_tot
+mo_energy = mf.mo_energy
+mo_coeff = mf.mo_coeff
 
 dataout = {}
 dataout["e_tot"] = e_tot
