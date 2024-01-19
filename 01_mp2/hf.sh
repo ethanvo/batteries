@@ -11,7 +11,6 @@
 #SBATCH --mail-user=eav2136@columbia.edu
 #SBATCH --time=5-00:00:00
 #SBATCH --mem=716800MB
-#SBATCH --job-name="hf_geom_${1}"
 
 export PYTHONPATH=/burg/berkelbach/users/eav2136/builds/work_tools/utilities:$PYTHONPATH
 export MODULEPATH=/burg/berkelbach/users/eav2136/modulefiles:$MODULEPATH

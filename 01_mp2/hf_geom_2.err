@@ -1,0 +1,10 @@
+
+The following have been reloaded with a version change:
+  1) gcc/10.2.0 => gcc/13.0.1
+
+==> Error: Spec 'gcc@13.2.0' matches no installed packages.
+==> Error: Spec 'intel-oneapi-compilers' matches no installed packages.
+Traceback (most recent call last):
+  File "/burg/ccce/users/eav2136/projects/batteries/01_mp2/hf_script.py", line 15, in <module>
+    conv, e_tot, mo_energy, mo_coeff, mo_occ = mf.kernel()
+TypeError: cannot unpack non-iterable numpy.float64 object
