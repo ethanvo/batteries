@@ -4,17 +4,3 @@ The following have been reloaded with a version change:
 
 ==> Error: Spec 'gcc@13.2.0' matches no installed packages.
 ==> Error: Spec 'intel-oneapi-compilers' matches no installed packages.
-Traceback (most recent call last):
-  File "/burg/ccce/users/eav2136/projects/batteries/01_mp2/hf_script.py", line 14, in <module>
-    mf = scf.RHF(mol)
-  File "/burg/berkelbach/users/eav2136/builds/pyscf/projected-cvs/pyscf/pyscf/scf/__init__.py", line 142, in RHF
-    return rhf.RHF(mol, *args)
-  File "/burg/berkelbach/users/eav2136/builds/pyscf/projected-cvs/pyscf/pyscf/scf/hf.py", line 1443, in __init__
-    self._chkfile = tempfile.NamedTemporaryFile(dir=lib.param.TMPDIR)
-  File "/burg/berkelbach/users/eav2136/builds/spack/develop/spack/var/spack/environments/pyscf/.spack-env/._view/dccfb6cgvddlly4gsycwdc4ig7fx3dvw/lib/python3.10/tempfile.py", line 559, in NamedTemporaryFile
-    file = _io.open(dir, mode, buffering=buffering,
-  File "/burg/berkelbach/users/eav2136/builds/spack/develop/spack/var/spack/environments/pyscf/.spack-env/._view/dccfb6cgvddlly4gsycwdc4ig7fx3dvw/lib/python3.10/tempfile.py", line 556, in opener
-    fd, name = _mkstemp_inner(dir, prefix, suffix, flags, output_type)
-  File "/burg/berkelbach/users/eav2136/builds/spack/develop/spack/var/spack/environments/pyscf/.spack-env/._view/dccfb6cgvddlly4gsycwdc4ig7fx3dvw/lib/python3.10/tempfile.py", line 256, in _mkstemp_inner
-    fd = _os.open(file, flags, 0o600)
-FileNotFoundError: [Errno 2] No such file or directory: '/burg/ccce/users/eav2136/projects/batteries/01_mp2/tmp/tmp9kqt1bwe'
