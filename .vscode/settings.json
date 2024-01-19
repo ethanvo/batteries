@@ -1,0 +1,10 @@
+{
+    "python.analysis.include": [
+        "/Users/ethanvo/builds/pyscf/projected_cvs/pyscf",
+        "/Users/ethanvo/builds/work_tools/utilities"
+    ],
+    "python.analysis.extraPaths": [
+        "/Users/ethanvo/builds/pyscf/projected_cvs/pyscf",
+        "/Users/ethanvo/builds/work_tools/utilities"
+    ]
+}
